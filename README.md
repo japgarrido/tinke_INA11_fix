@@ -1,3 +1,11 @@
+This fork contains a minor fix for an issue affecting the use of map compression when recompressing image files in the INAZUMA11 ROM. You can find the new version in the RELEASES section.
+
+Special thanks to @pleonex, the original creator of Tinke. His dedication and hard work laid the foundation for this incredible tool.
+
+
+---
+Original README:
+
 **⚠️ Tinke by @pleonex is deprecated and not maintained anymore ⚠️**
 
 I appreciate the support over the years. It's time to stop and make way for modern solutions.
