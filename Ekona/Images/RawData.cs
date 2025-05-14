@@ -227,8 +227,8 @@ namespace Ekona.Images
             for (int i = 0; i < StartByte; i++)
                 bw.Write(ori_data[i]);
             bw.Write(Tiles, 0, dataSize);
-            for (int i = Tiles.Length + StartByte; i < ori_data.Length; i++)
-                bw.Write(ori_data[i]);
+            //for (int i = Tiles.Length + StartByte; i < ori_data.Length; i++)
+            //    bw.Write(ori_data[i]);
             bw.Write(post_data);
             bw.Flush();
             bw.Close();
